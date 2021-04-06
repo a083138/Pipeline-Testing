@@ -1,0 +1,9 @@
+- name: Pipeline Testing
+  hosts: "lab-betillb1a"
+  connection: local
+  gather_facts: False
+
+
+  tasks:
+    - debug:
+        msg: "Test Running7"
