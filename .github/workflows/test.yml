@@ -15,6 +15,3 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     
-      - name: ansible-lint
-        uses: ansible/ansible-lint-action@v4.1.0.post0
